@@ -1,0 +1,22 @@
+{
+  "name": "cracked",
+  "version": "1.0.0",
+  "description": "Probably a better name would be 'broken'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsbutler/crackedjs.git"
+  },
+  "keywords": [
+    "cracked"
+  ],
+  "author": "Lars Butler <lars.butler@gmail.com> (https://github.com/larsbutler)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/larsbutler/crackedjs/issues"
+  },
+  "homepage": "https://github.com/larsbutler/crackedjs#readme"
+}
