@@ -19,3 +19,7 @@ function cracked(expected) {
         process.exit();
     });
 }
+
+if (require.main === module) {
+  cracked(process.argv[2] || 'yolo');
+}
