@@ -9,9 +9,7 @@ function cracked(expected) {
     stdin.addListener("data", function(d) {
         // don't be pedantic
         var fixedExpected = expected.toLowerCase().split('').sort().join('');
-        // TODO(larsbutler): Trim the newline chars from the d so the first
-        // case works.
-        var fi_xD = d.toString().toLowerCase().split('').sort().join('');
+        var fi_xD = d.toString().toLowerCase().split('').sort().join('').replace('\n', '');
         if (fixedExpected == fi_xD) {
             console.log('You did it!');
         }
